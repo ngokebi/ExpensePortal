@@ -91,7 +91,7 @@ class ExpenseController extends Controller
 
         $id = Auth::user()->id;
         $user = User::find($id);
-        $expenses = Expense::paginate(2);
+        $expenses = Expense::paginate(50);
 
         return view('pages.expenseList', compact('expenses', 'user'));
     }

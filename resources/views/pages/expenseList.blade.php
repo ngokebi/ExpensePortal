@@ -205,7 +205,7 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        {{ $expenses->links('pagination::bootstrap-4') }}
+                                        {{-- {{ $expenses->links('pagination::bootstrap-4') }} --}}
                                     </div>
                                 </div>
                             </div>
